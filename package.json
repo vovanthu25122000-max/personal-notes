@@ -1,0 +1,24 @@
+{
+  "name": "less2",
+  "version": "1.0.0",
+  "description": "- server.js: File backend chính\r - /routes: Định nghĩa các route cho xác thực và ghi chú\r - /models: Kết nối và truy vấn database\r - /middleware: Middleware cho xác thực, bảo vệ route\r - /utils: Tiện ích mã hóa, hash mật khẩu\r - /public: Frontend (HTML, CSS, JS)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "express-mysql-session": "^3.0.3",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.20.0",
+    "nodemailer": "^6.9.16"
+  }
+}
